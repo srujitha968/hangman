@@ -1,0 +1,44 @@
+#main{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(229, 239, 239);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+input{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 30px;
+  margin-left: 5px;
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
+}
+img{
+  height: 240px;
+  width: 190px;
+}
+#btn-box{
+  width: 270px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+.btn{
+  display: flex;
+  column-gap: 5px;
+}
+button{
+  padding: 5px;
+  font-weight: bold;
+  font-size: medium;
+}
+.butn{
+  padding: 5px 15px;
+  cursor: pointer;
+}
