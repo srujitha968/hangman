@@ -61,7 +61,7 @@ function App() {
         <h1 style={{ textDecoration: 'underline' }}>Hang-Man</h1>
         <h1>{game ? (<>
           <h4>Level Failed &#128542; </h4>  <h6>Answer:- {word}</h6>
-          <button className='butn' onClick={() => window.location = '/'}>Play Next</button></>) : (<img src={`/hangmanpic/${count}.jpg`} />)}</h1>
+          <button className='butn' onClick={() => window.location = '/'}>Play Next</button></>) : (<img src={`/hangmanpic/${count}.png`} />)}</h1>
         <h1>{gamet ? (<>
           <h4>You did it! &#128522;</h4>
           <button className='butn' onClick={() => window.location = '/'}>Play Next</button></>) : null}</h1>
