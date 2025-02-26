@@ -60,7 +60,7 @@ function App() {
       <div id="main">
         <h1 style={{ textDecoration: 'underline' }}>Hang-Man</h1>
         <h1>{game ? (<>
-          <h4>Level Failed &#128542; </h4>
+          <h4>Level Failed &#128542; </h4>  <h6>Answer:- {word}</h6>
           <button className='butn' onClick={() => window.location = '/'}>Play Next</button></>) : (<img src={`/hangmanpic/${count}.jpg`} />)}</h1>
         <h1>{gamet ? (<>
           <h4>You did it! &#128522;</h4>
